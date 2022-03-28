@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi-v7a
+directory D:/firebug/android-ndk-r23b/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot jni D:/firebug/android-ndk-r23b/build//../sources/android/support D:/firebug/android-ndk-r23b/build//../sources/cxx-stl/llvm-libc++ D:/firebug/android-ndk-r23b/build//../sources/cxx-stl/llvm-libc++abi/include

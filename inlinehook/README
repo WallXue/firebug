@@ -1,0 +1,5 @@
+编译o文件
+gcc Ihook.c -c -I Ihook.h -fPIC
+
+打包成so动态库
+gcc -shared -o libinlinehook.so *.o

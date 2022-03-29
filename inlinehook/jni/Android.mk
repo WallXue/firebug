@@ -22,10 +22,4 @@ LOCAL_ARM_MODE := arm
 LOCAL_MODULE    := IHook
 LOCAL_SRC_FILES := ../src/Ihook.c ../src/ihookstub.s
 
-#LOCAL_MODULE    := inject
-#LOCAL_SRC_FILES := inject.c
-
-#LOCAL_MODULE    := inject2
-#LOCAL_SRC_FILES := inject2.c
-
 include $(BUILD_STATIC_LIBRARY)

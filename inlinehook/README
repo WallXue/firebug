@@ -3,3 +3,8 @@ gcc Ihook.c -c -I Ihook.h -fPIC
 
 打包成so动态库
 gcc -shared -o libinlinehook.so *.o
+
+
+分析loop程序逻辑，找到汇编指令偏移地址
+通过hook相关地址修改寄存器，让if失效
+

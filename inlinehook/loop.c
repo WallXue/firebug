@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 
 
 char a_str[20] = "XUEWU";
@@ -19,7 +20,10 @@ void getName(char *pName, int val){
 int main(){
 //    char pName[200];
     char *pName = malloc(200);
-    getName(pName, 5);
-    puts(pName);
+    while(1) {
+        getName(pName, 5);
+        puts(pName);
+        sleep(1000);
+    }
 }
 

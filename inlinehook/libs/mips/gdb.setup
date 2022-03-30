@@ -1,3 +1,0 @@
-set solib-search-path ./obj/local/mips
-source D:/firebug/android-ndk-r10e/prebuilt/common/gdb/common.setup
-directory D:/firebug/android-ndk-r10e/platforms/android-16/arch-mips/usr/include jni D:/firebug/android-ndk-r10e/sources/cxx-stl/system

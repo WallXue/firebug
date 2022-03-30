@@ -35,6 +35,9 @@ typedef struct tagINLINEHOOKINFO{
     BYTE szbyBackupOpcodes[OPCODEMAXLEN];    //原来的opcodes
 } INLINE_HOOK_INFO;
 
+//日志函数
+void LOGI(char *log);
+
 //更高内存页属性
 bool ChangePageProperty(void *pAddress, size_t size);
 

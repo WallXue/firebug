@@ -19,9 +19,7 @@ include $(CLEAR_VARS)
 LOCAL_CPPFLAGS +=  -g -O0
 LOCAL_ARM_MODE := arm
 
-LOCAL_MODULE    := IHook
-LOCAL_SRC_FILES := ../src/Ihook.c ../src/ihookstub.s ../src/hook.cpp
+LOCAL_MODULE    := LoopApp
+LOCAL_SRC_FILES := ../src/loop.c
 
-#include $(BUILD_STATIC_LIBRARY)
-#include $(BUILD_SHARED_LIBRARY)
 include $(BUILD_EXECUTABLE)

@@ -96,7 +96,7 @@ bool ChangePageProperty(void *pAddress, size_t size)
     unsigned long ulNewPageStartAddress = (unsigned long)(pAddress) & ~(ulPageSize - 1);
 
     long lPageCount = (size / ulPageSize) + 1;
-    int iRet = mprotect((const void *)(ulNewPageStartAddress), lPageCount*ulPageSize , iProtect);
+    int iRet = mprotect((void *)(ulNewPageStartAddress), lPageCount*ulPageSize , iProtect);
     if(iRet == -1)
     {
 //        LOGI("mprotect error:%s", strerror(errno));

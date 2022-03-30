@@ -1,2 +1,0 @@
-set solib-search-path ./obj/local/x86_64
-directory D:/firebug/android-ndk-r23b/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot jni

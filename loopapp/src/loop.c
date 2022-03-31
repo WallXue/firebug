@@ -23,7 +23,7 @@ int main(){
     while(1) {
         getName(pName, 5);
         puts(pName);
-        sleep(1000);
+        sleep(1);
     }
 }
 

@@ -8,3 +8,9 @@ gcc -shared -o libinlinehook.so *.o
 分析loop程序逻辑，找到汇编指令偏移地址
 通过hook相关地址修改寄存器，让if失效
 
+该hook需要随被hook程序一同启动，才能使用内存偏移地址修改代码
+
+
+
+
+
